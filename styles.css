@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+    background-color: #add8e6; /* Light Blue */
+    color: #000080; /* Navy */
+    text-align: center; /* Center text */
+}
+
+h1, h2 {
+    color: #0000FF; /* Blue */
+    text-align: center; /* Center text */
+
+}
+
+.navbar {
+    background-color: #1E90FF; /* Dodger Blue */
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* White */
+}
+
+#about-me {
+    background-color: #87CEFA; /* Light Sky Blue */
+    padding: 20px;
+    margin: 20px auto; /* Center the section */
+    width: 50%; /* Set the width */
+}
