@@ -1,28 +1,69 @@
 /* styles.css */
 
-body {
-    background-color: #add8e6; /* Light Blue */
-    color: #000080; /* Navy */
-    text-align: center; /* Center text */
-}
 
 h1, h2 {
-    color: #0000FF; /* Blue */
-    text-align: center; /* Center text */
+    color: white; 
+    text-align: center; 
 
 }
 
+
 .navbar {
-    background-color: #1E90FF; /* Dodger Blue */
+    background-color: #1E90FF; 
 }
 
 .navbar-nav .nav-link {
-    color: #FFFFFF; /* White */
+    color: #FFFFFF; 
 }
 
-#about-me {
-    background-color: #87CEFA; /* Light Sky Blue */
+img {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#content .card .card-img-top {
+    width: 10%;  /* Adjust as needed */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+#content {
+    background-color: #1E90FF; 
+    color: white; 
     padding: 20px;
-    margin: 20px auto; /* Center the section */
-    width: 50%; /* Set the width */
+    margin: 20px auto; 
+    width: 50%; 
+    text-align: center; 
+}
+
+#resume h3, h4{
+    color: white; 
+    text-align: center; 
+}
+
+#contact {
+
+    text-align: center; 
+}
+
+#resume{
+    background-color: #1E90FF; 
+    color: white; 
+    padding: 20px;
+    margin: 20px auto; 
+    width: 50%; 
+    padding-bottom: 20px;
+
+}
+
+footer {
+    background-color: #1E90FF; 
+    color: #FFFFFF; 
+    text-align: center; 
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
